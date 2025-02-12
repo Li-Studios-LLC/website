@@ -1,20 +1,24 @@
 import './globals.css';
 import type { Metadata } from 'next';
+import TopBar from '@/components/TopBar';
+import BottomBar from '@/components/BottomBar';
 
 export const metadata: Metadata = {
-  title: 'Li Studios',
+	title: 'Li Studios',
 };
 
 export default function RootLayout({
-  children,
+	children,
 }: Readonly<{
-  children: React.ReactNode;
+	children: React.ReactNode;
 }>) {
-  return (
-    <html lang='en'>
-      <body>
-        {children}
-      </body>
-    </html>
-  );
+	return (
+		<html lang='en'>
+			<body>
+				<TopBar />
+				{children}
+				<BottomBar />
+			</body>
+		</html>
+	);
 }

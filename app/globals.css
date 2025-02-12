@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+@font-face {
+	font-family: 'Quantum';
+	src: url('/logos/Quantum.otf');
+}
+
+.quantum {
+	font-family: 'Quantum';
+}
+
+@font-face {
+	font-family: 'Inversionz';
+	src: url('/logos/Inversionz.ttf');
+}
+
+.inversionz {
+	font-family: 'Inversionz';
+}
+
+.RobotoMono {
+	font-family: 'Roboto Mono';
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	color: white;
+	font-family: 'Roboto Mono';
+}
