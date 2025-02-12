@@ -1,9 +1,25 @@
 .TopBar {
 	display: flex;
-	background-color: rgb(0, 0, 0);
 	align-items: center;
+	background-color: rgb(0, 0, 0);
 }
 
-.TopBar a {
-	padding: 0px 40px;
+@media (max-width: 480px) {
+	.TopBar {
+		flex-direction: column;
+	}
+
+	.TopBar a {
+	}
+}
+
+@media (min-width: 1280px) {
+	.TopBar {
+		flex-direction: row;
+		width: 100%;
+	}
+
+	.TopBar a {
+		padding: 0px 40px;
+	}
 }
