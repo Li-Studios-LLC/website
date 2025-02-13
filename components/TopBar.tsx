@@ -15,6 +15,10 @@ export default function TopBar() {
 			<Link href='/contact' prefetch={true}>
 				<h1>Contact</h1>
 			</Link>
+
+			<Link href='/projects' prefetch={true}>
+				<h1>Projects</h1>
+			</Link>
 		</nav>
 	);
 }

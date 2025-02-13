@@ -26,13 +26,36 @@ body {
 	margin: 0;
 	padding: 0;
 	display: flex;
+	flex-direction: column;
+	background-color: black;
 }
 
 a {
 	text-decoration: none;
 }
 
+p {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 h1 {
 	color: white;
 	font-family: 'Roboto Mono';
+}
+
+h1:hover {
+	color: rgb(200, 200, 200);
+}
+
+h2 {
+	font-family: 'Roboto Mono';
+}
+
+h3 {
+	color: rgb(200, 200, 200);
+	font-family: 'Roboto Mono';
+}
+
+h3:hover {
+	color: rgb(150, 150, 150);
 }

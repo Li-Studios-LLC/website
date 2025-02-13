@@ -5,6 +5,7 @@ import BottomBar from '@/components/BottomBar';
 
 export const metadata: Metadata = {
 	title: 'Li Studios',
+	description: 'Homepage for Li Studios',
 };
 
 export default function RootLayout({
