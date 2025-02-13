@@ -61,6 +61,11 @@ a h3:hover {
 	color: rgb(150, 150, 150);
 }
 
+img {
+	width: auto;
+	height: auto;
+}
+
 .PageSection {
 	display: flex;
 	flex-direction: column;
