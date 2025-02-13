@@ -36,6 +36,7 @@ a {
 
 p {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: white;
 }
 
 h1 {
@@ -43,7 +44,7 @@ h1 {
 	font-family: 'Roboto Mono';
 }
 
-h1:hover {
+a h1:hover {
 	color: rgb(200, 200, 200);
 }
 
@@ -56,6 +57,12 @@ h3 {
 	font-family: 'Roboto Mono';
 }
 
-h3:hover {
+a h3:hover {
 	color: rgb(150, 150, 150);
+}
+
+.PageSection {
+	display: flex;
+	flex-direction: column;
+	background-color: rgb(10, 10, 10);
 }
