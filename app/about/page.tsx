@@ -1,6 +1,9 @@
 import './about.css';
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import Person from '@/components/Person';
+import SquareLogo from '@/public/logos/exports/SquareNormal.png';
+import SquareInvLogo from '@/public/logos/exports/SquareInverted.png';
 
 export const metadata: Metadata = {
 	title: 'Li Studios - About',
@@ -16,6 +19,11 @@ export default function About() {
 				specialize in game development, tool development, and software
 				solutions. Right now we are a small team, with dreams of expanding.
 			</p>
+
+			<div>
+				<Image src={SquareInvLogo} alt='Square logo inverted' priority />
+				<Image src={SquareLogo} alt='Square logo' priority />
+			</div>
 
 			<h1>Us</h1>
 			<Person
