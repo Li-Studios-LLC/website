@@ -7,7 +7,7 @@ export default function TopBar() {
 	return (
 		<nav className='TopBar'>
 			<Link href='/'>
-				<Image src={logo} alt='Home' width={512} height={256} priority />
+				<Image src={logo} alt='Home' priority />
 			</Link>
 
 			<Link href='/about'>

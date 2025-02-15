@@ -1,0 +1,13 @@
+.Links {
+	display: flex;
+	flex-direction: row;
+}
+
+.Links img {
+	width: 48px;
+	height: 48px;
+}
+
+.Links a {
+	margin: 0px 5px;
+}

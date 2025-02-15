@@ -56,18 +56,36 @@ h2 {
 	font-family: 'Roboto Mono';
 }
 
+a h2:hover {
+	color: rgb(150, 150, 150);
+}
+
 h3 {
-	color: rgb(200, 200, 200);
+	color: rgb(150, 150, 150);
 	font-family: 'Roboto Mono';
 }
 
 a h3:hover {
-	color: rgb(150, 150, 150);
+	color: rgb(125, 125, 125);
 }
 
 img {
 	width: auto;
 	height: auto;
+}
+
+button {
+	cursor: pointer;
+	background-color: rgb(50, 120, 175);
+	padding: 10px 15px;
+	color: white;
+	font-family: 'Space Grotesk';
+	border-radius: 10px;
+	border: 0px;
+}
+
+button:hover {
+	background-color: rgb(50, 95, 135);
 }
 
 .PageSection {
