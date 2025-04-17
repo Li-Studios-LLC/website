@@ -6,13 +6,13 @@ import { Route, Routes } from 'react-router';
 const Home = lazy(() => import('@/routes/home'));
 
 function App() {
-  return (
-    <>
-      <Routes>
+	return (
+		<>
+			<Routes>
 				<Route index element={<Home />} />
-      </Routes>
-    </>
-  )
+			</Routes>
+		</>
+	);
 }
 
-export default App
+export default App;
